@@ -20,7 +20,7 @@ Usar un ArrayList
 Permite agregar productos dinámicamente sin definir un límite fijo.
 Ejemplo:
 ArrayList<Producto> productos = new ArrayList<>();
-3. Crear una clase Tienda
+Crear una clase Tienda
 La tienda tendría una lista de productos y métodos para:
 agregar productos
 mostrar el inventario
@@ -38,4 +38,5 @@ Calcular el total general del inventario, sumando el total individual de cada pr
 Facilitar la expansión del programa, permitiendo más funcionalidades como buscar, eliminar o actualizar productos.
 Con esta clase adicional, la estructura del programa se vuelve más modular y clara:
 La clase Producto representa un producto individual, mientras que la clase Tienda representa el conjunto de productos y las operaciones que involucran a varios de ellos. Esto refleja mejor la forma en que funciona una tienda real y facilita mucho el mantenimiento del código y futuras extensiones.
+
 
